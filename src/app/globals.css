@@ -14,10 +14,8 @@
   }
 }
 
-@layer base {
-  body {
-    @apply bg-background text-foreground;
-  }
+body {
+  @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white;
 }
 
 .aspect-w-16 {
