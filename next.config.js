@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['localhost', 'soniferba.netlify.app'],
-  },
+    unoptimized: true
+  }
 }
 
 module.exports = nextConfig 
